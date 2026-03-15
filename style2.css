@@ -10,14 +10,15 @@
   .about-me {
     display: none;
   }
+  .navlist {
+    display: none;
+  }
 }
 @media screen and (max-width: 480px) {
   #my-projects {
     display: none;
   }
-  .navlist {
-    display: none;
-  }
+
 }
 @media (max-width: 900px) {
   .container1 {
