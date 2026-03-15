@@ -15,7 +15,7 @@
   #my-projects {
     display: none;
   }
-  .nav-list {
+  .navlist {
     display: none;
   }
 }
@@ -118,7 +118,6 @@
     width: 100%;
     max-width: 320px;
   }
-
 }
 
 @keyframes type {
