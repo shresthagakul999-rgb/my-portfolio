@@ -7,12 +7,12 @@
   }
 } */
 @media screen and (max-width: 600px) {
-  .about-me {
+  #about-me {
     display: none;
   }
-  .navlist {
+  /* .navlist {
     display: none;
-  }
+  } */
 }
 @media screen and (max-width: 480px) {
   #my-projects {
