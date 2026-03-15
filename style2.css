@@ -1,12 +1,21 @@
-@media (max-width: 1060px) {
+/* @media (max-width: 1060px) {
   .container1 h1 {
     right: calc(30%);
   }
   .container1 h2 {
     right: calc(35%);
   }
+} */
+@media screen and (max-width: 600px) {
+  #about-me {
+    display: none;
+  }
 }
-
+@media screen and (max-width: 480px) {
+  #my-projects {
+    display: none;
+  }
+}
 @media (max-width: 900px) {
   .container1 {
     height: 590px;
@@ -57,6 +66,7 @@
   display: flex;
   flex-direction: column;
 }
+
 @media (max-width: 600px) {
   header > nav > ul {
     gap: 10px;
@@ -105,6 +115,7 @@
     width: 100%;
     max-width: 320px;
   }
+
 }
 
 @keyframes type {
